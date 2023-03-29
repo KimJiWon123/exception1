@@ -10,7 +10,7 @@ public class LAB1 {
 //        System.out.println(s.charAt(3));
 //        Object o = new String();
 //        String d = (String)o;
-        Object o = null;
-        System.out.println(o.toString());
+//        Object o = null;
+//        System.out.println(o.toString());
     }
 }

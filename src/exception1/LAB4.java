@@ -1,12 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package exception1;
 
-import java.nio.channels.AcceptPendingException;
-
-public class LAB3 {
+public class LAB4 {
     public static void main(String[] args) {
         try {
             System.out.println("statement1");
@@ -14,9 +8,14 @@ public class LAB3 {
             System.out.println("statement3");
         }
         
-        catch (ArithmeticException e){
-
+        catch (ArrayIndexOutOfBoundsException e){
+            
         }
+        
+        catch (ArithmeticException e){
+            throw new StringIndexOutOfBoundsException();
+        }
+        
         finally {
             System.out.println("statement4");
         }
